@@ -1,9 +1,9 @@
+.w-form-formrecaptcha {
+  margin-bottom: 8px;
+}
+
 .hero_section {
   height: 100vh;
-  background-image: url('../images/ryu_acupuncture.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .main_container {
@@ -14,13 +14,108 @@
 }
 
 .navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
   background-color: #fff;
 }
 
 .about_section {
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 .services_section {
   height: 100vh;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.section_h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+._2_block_row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+._2_block {
+  width: 50%;
+  padding: 25px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.contact_section {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.sass {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.menu_container {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.brand {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.parallax_block_herbs {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  background-image: url('../images/herbs.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.background-video {
+  height: 100vh;
+}
+
+.heading {
+  margin-top: 352px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 75px;
+  line-height: 75px;
+  text-align: center;
+}
+
+.parallax_block_needles {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  background-image: url('../images/ryu_acupuncture.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.heading-2 {
+  text-align: center;
 }
