@@ -1,0 +1,26 @@
+.hero_section {
+  height: 100vh;
+  background-image: url('../images/ryu_acupuncture.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main_container {
+  width: 100vw;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.about_section {
+  height: 100vh;
+}
+
+.services_section {
+  height: 100vh;
+}
