@@ -33,7 +33,7 @@
 }
 
 .about_section {
-  height: auto;
+  height: 100vh;
   min-height: 100vh;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -42,12 +42,16 @@
 }
 
 .services_section {
-  height: auto;
+  height: 100vh;
   min-height: 100vh;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 75px;
   padding-bottom: 75px;
+}
+
+.footer_section {
+  background-color: #e0e0e0;
 }
 
 .section_h2 {
@@ -77,6 +81,8 @@
 }
 
 .contact_section {
+  height: 100vh;
+  min-height: 100vh;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 75px;
@@ -499,6 +505,10 @@
 
 .list-item-15 {
   color: #ee0b0b;
+}
+
+.section {
+  height: 100vh;
 }
 
 @media screen and (max-width: 991px) {
