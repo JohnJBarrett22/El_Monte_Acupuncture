@@ -394,8 +394,8 @@
 }
 
 .div-block {
-  border-style: solid;
-  border-width: 1px;
+  border-style: none;
+  border-width: 0px;
   border-color: #000;
 }
 
@@ -511,6 +511,10 @@
   height: 100vh;
 }
 
+.testimonial_page_section {
+  height: 100vh;
+}
+
 .testimonials_section {
   height: 100vh;
   padding-top: 75px;
@@ -545,10 +549,11 @@
   grid-column-gap: 9px;
   grid-row-gap: 0px;
   grid-template-areas: ".";
-  -ms-grid-columns: 0.25fr 9px 0.4fr;
-  grid-template-columns: 0.25fr 0.4fr;
+  -ms-grid-columns: 0.25fr 9px 0.9fr;
+  grid-template-columns: 0.25fr 0.9fr;
   -ms-grid-rows: 45px 0px 45px 0px 45px 0px 45px 0px 45px 0px 45px 0px 45px;
   grid-template-rows: 45px 45px 45px 45px 45px 45px 45px;
+  border: 2px none #000;
 }
 
 .heading-6 {
@@ -577,6 +582,42 @@
 
 .heading-12 {
   text-align: right;
+}
+
+._65_block {
+  width: 65%;
+  padding: 25px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+._35_block {
+  width: 35%;
+  padding: 25px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.slider {
+  height: 500px;
+}
+
+.slide {
+  height: 100%;
+}
+
+.slide-2 {
+  height: 100%;
+}
+
+.image-2 {
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 0px 0px;
+  background-size: cover;
 }
 
 @media screen and (max-width: 991px) {
