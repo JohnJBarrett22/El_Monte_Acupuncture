@@ -1074,6 +1074,11 @@
   margin-left: 145px;
 }
 
+.div-block-4 {
+  height: 2px;
+  background-color: #7f2727;
+}
+
 @media screen and (max-width: 991px) {
   .footer {
     padding-right: 20px;
