@@ -69,6 +69,10 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 ._2_block {
@@ -230,9 +234,11 @@
 ._4_block {
   width: 25%;
   height: 235px;
+  margin: 0px 7px;
 }
 
 .footer_h3 {
+  margin-bottom: 0px;
   border: 1px none #000;
   text-align: left;
 }
@@ -325,7 +331,7 @@
   padding-bottom: 0px;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  border-top: 1px solid #fff;
+  border-top: 1px solid #3898ec;
   text-align: left;
 }
 
@@ -365,7 +371,7 @@
   grid-template-columns: 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  border-top: 1px solid #fff;
+  border-top: 1px solid #3898ec;
   text-align: left;
 }
 
@@ -513,7 +519,7 @@
 }
 
 .testimonial_page_section {
-  height: 100vh;
+  height: auto;
 }
 
 .testimonials_section {
@@ -732,6 +738,7 @@
 }
 
 ._5_star {
+  display: block;
   margin-left: 186px;
   padding-left: 0px;
   text-align: right;
@@ -748,6 +755,7 @@
 }
 
 .testimonial_date {
+  display: block;
   margin-left: 239px;
   text-align: right;
 }
@@ -1074,9 +1082,87 @@
   margin-left: 145px;
 }
 
-.div-block-4 {
+.blue_divide {
   height: 2px;
-  background-color: #7f2727;
+  margin-bottom: 15px;
+  background-color: #3898ec;
+}
+
+.submit-button {
+  background-color: #3898ec;
+}
+
+.section_h2_left {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.paragraph-6 {
+  margin-bottom: 0px;
+}
+
+.blue_divide_half {
+  width: 50%;
+  height: 2px;
+  margin-bottom: 15px;
+  background-color: #3898ec;
+}
+
+.ryu_h4 {
+  margin: 10px 0px;
+  font-style: italic;
+}
+
+.ryu_h5 {
+  margin: 10px 0px;
+  font-style: italic;
+}
+
+._45_block {
+  width: 45%;
+  padding: 25px;
+}
+
+._55_block {
+  width: 55%;
+  padding: 25px;
+}
+
+.testimonial_block_grey {
+  padding: 50px;
+  border-bottom: 1px solid #3898ec;
+  background-color: #fff;
+}
+
+.testimonial_block_white {
+  padding: 50px;
+  border-bottom: 1px solid #3898ec;
+}
+
+.testimonial_image {
+  display: block;
+  width: 75px;
+  height: 75px;
+  margin-left: 1030px;
+  border-radius: 85px;
+}
+
+._5_star_full {
+  display: block;
+  margin-left: 0px;
+  padding-left: 0px;
+  text-align: right;
+}
+
+.testimonial_location {
+  margin-left: 239px;
+  text-align: right;
+}
+
+.testimonial_source {
+  margin-left: 239px;
+  text-align: right;
 }
 
 @media screen and (max-width: 991px) {
