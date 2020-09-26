@@ -73,6 +73,7 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  border-bottom: 1px solid #3898ec;
 }
 
 ._2_block {
@@ -342,7 +343,7 @@
 }
 
 .ailment_list_item {
-  color: #ee0b0b;
+  color: #000;
 }
 
 .section {
