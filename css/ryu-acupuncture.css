@@ -60,7 +60,7 @@
   text-align: center;
 }
 
-._2_block_row {
+._2_block_row_ailment_right {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -904,7 +904,7 @@
 }
 
 .conditions_treated_page {
-  height: 100vh;
+  height: auto;
 }
 
 .ryu_button {
@@ -958,6 +958,44 @@
 
 .heading-13 {
   color: #ee0b0b;
+}
+
+._2_block_row_ailment_left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.ailment_h3_left {
+  text-align: left;
+}
+
+.ailment_h3_right {
+  text-align: left;
+}
+
+._3_block_row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+._3_block {
+  width: 33.3%;
+}
+
+.list-item {
+  text-align: left;
 }
 
 @media screen and (max-width: 991px) {
