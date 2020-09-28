@@ -33,7 +33,7 @@
 }
 
 .about_section {
-  height: 100vh;
+  height: auto;
   min-height: 100vh;
   margin-top: 0px;
   margin-bottom: 0px;
