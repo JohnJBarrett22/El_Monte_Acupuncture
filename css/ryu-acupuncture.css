@@ -343,7 +343,8 @@
 }
 
 .contact_page_section {
-  height: 75vh;
+  height: auto;
+  padding: 75px;
 }
 
 .testimonial_page_section {
@@ -834,7 +835,7 @@
 }
 
 .ryu_h4 {
-  margin: 10px 0px;
+  margin: 25px 0px;
   font-style: italic;
 }
 
