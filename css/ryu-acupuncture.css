@@ -1569,6 +1569,15 @@
 }
 
 @media screen and (max-width: 991px) {
+  .main_container {
+    width: 90vw;
+  }
+  ._2_block_row_ailment_right {
+    height: 375px;
+  }
+  .ryu_title {
+    margin-top: 230px;
+  }
   .cards_grid {
     grid-column-gap: 20px;
   }
@@ -1586,6 +1595,73 @@
   .footer_list_item {
     font-size: 12px;
     line-height: 14px;
+  }
+  .contact_page_section {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .grid-2 {
+    margin-top: 25px;
+  }
+  .testimonial_image {
+    margin-left: 520px;
+  }
+  .neurological_block {
+    width: 40%;
+  }
+  .services_mask_right {
+    background-image: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(35%, transparent));
+    background-image: linear-gradient(90deg, #fff, transparent 35%);
+  }
+  .dermatological_block {
+    width: 40%;
+  }
+  .muscoskeletal_block {
+    width: 40%;
+  }
+  .services_mask_left {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(65%, transparent), to(#fff));
+    background-image: linear-gradient(90deg, transparent 65%, #fff);
+  }
+  .urological_block {
+    width: 40%;
+  }
+  .gastrointestinal_block {
+    width: 40%;
+  }
+  .addiction_block {
+    width: 40%;
+  }
+  .respitory_block {
+    width: 40%;
+  }
+  .reproductive_block {
+    width: 40%;
+  }
+  .chronic_conditions_block {
+    width: 40%;
+  }
+  .ent_block {
+    width: 40%;
+  }
+  .psychological_block {
+    width: 40%;
+  }
+  .circulatory_block {
+    width: 40%;
+  }
+  .autoimmune_disorders_block {
+    width: 40%;
+  }
+  .immune_system_block {
+    width: 40%;
+  }
+  ._2_block_middle {
+    width: 60%;
+  }
+  .services_content_h3 {
+    font-size: 40px;
+    line-height: 40px;
   }
 }
 
@@ -1605,6 +1681,61 @@
 }
 
 @media screen and (max-width: 479px) {
+  .section_h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  ._2_block_row_ailment_right {
+    height: 250px;
+  }
+  ._2_block.margin_left {
+    width: 100%;
+    margin-left: 0px;
+  }
+  ._2_block.margin_right {
+    width: 100%;
+  }
+  .ryu_title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .ryu_tagline {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .ends_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  ._4_block_row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+  ._4_block {
+    display: block;
+    width: 90%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+  .footer_h3 {
+    text-align: center;
+  }
   .cards_grid {
     margin-right: 0px;
     margin-left: 0px;
@@ -1620,11 +1751,200 @@
     justify-content: center;
     justify-items: center;
   }
+  .footer_link {
+    text-align: center;
+  }
   .footer_grid_1_block {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+  .ailment_list_item {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  ._65_block.margin_left {
+    width: 100%;
+    margin-left: 0px;
+  }
+  ._35_block.margin_right {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .testimonial_card_1 {
+    width: 270px;
+    height: 600px;
+  }
+  ._5_star {
+    margin-left: 88px;
+  }
+  .testimonial_author {
+    margin-left: 130px;
+  }
+  .testimonial_date {
+    margin-left: 120px;
+  }
+  .testimonial_card_2 {
+    width: 270px;
+    height: 600px;
+  }
+  .testimonial_card_3 {
+    width: 270px;
+    height: 600px;
+  }
+  .testimonial_card_4 {
+    width: 270px;
+    height: 600px;
+  }
+  .testimonial_card_5 {
+    width: 270px;
+    height: 600px;
+  }
+  .testimonial_card_6 {
+    width: 270px;
+    height: 600px;
+  }
+  .testimonial_card_7 {
+    width: 270px;
+    height: 600px;
+  }
+  .testimonial_card_8 {
+    width: 270px;
+    height: 600px;
+  }
+  .testimonial_card_9 {
+    width: 270px;
+    height: 600px;
+  }
+  .testimonial_card_10 {
+    width: 270px;
+    height: 600px;
+  }
+  .testimonial_card_11 {
+    width: 270px;
+    height: 600px;
+  }
+  ._45_block.margin_right {
+    width: 100%;
+    margin-right: 0px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    text-align: center;
+  }
+  ._55_block.margin_left {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .testimonial_image {
+    margin-left: 117px;
+  }
+  .testimonial_location {
+    margin-left: 103px;
+  }
+  .testimonial_source {
+    margin-left: 71px;
+  }
+  ._2_block_row_ailment_left {
+    height: 250px;
+  }
+  .ailment_h3 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  ._3_block {
+    opacity: 1;
+  }
+  ._2_block_row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .neurological_block {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 250px;
+    opacity: 0.25;
+  }
+  .services_mask_right {
+    display: none;
+  }
+  .dermatological_block {
+    display: none;
+  }
+  .muscoskeletal_block {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 250px;
+    opacity: 0.25;
+  }
+  .services_mask_left {
+    display: none;
+    height: auto;
+  }
+  .urological_block {
+    display: none;
+  }
+  .gastrointestinal_block {
+    display: none;
+  }
+  .addiction_block {
+    display: none;
+  }
+  .respitory_block {
+    display: none;
+  }
+  .reproductive_block {
+    display: none;
+  }
+  .chronic_conditions_block {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 250px;
+    opacity: 0.25;
+  }
+  .ent_block {
+    display: none;
+  }
+  .psychological_block {
+    display: none;
+  }
+  .circulatory_block {
+    display: none;
+  }
+  .autoimmune_disorders_block {
+    display: none;
+  }
+  .immune_system_block {
+    display: none;
+  }
+  ._2_block_middle {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
   .services_content_h3 {
     -webkit-transform: rotate(-90deg);
@@ -1636,6 +1956,31 @@
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+  }
+  .solo_para {
+    text-align: center;
+  }
+  .list {
+    text-align: center;
+  }
+  .list-2 {
+    text-align: center;
+  }
+  .paragraph-7 {
+    text-align: center;
+  }
+  .ailment_list {
+    padding-left: 0px;
+    text-align: center;
+  }
+  .div-block-2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/man_with_back_pain.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
   }
 }
 
