@@ -1576,6 +1576,11 @@
   text-align: center;
 }
 
+.eastern_medicine_icons {
+  width: 128px;
+  height: 128px;
+}
+
 @media screen and (max-width: 991px) {
   .main_container {
     width: 90vw;
@@ -1934,6 +1939,9 @@
   .conditions_treated_page {
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+  .heading-13 {
+    text-align: center;
   }
   ._2_block_row_ailment_left {
     height: 250px;
