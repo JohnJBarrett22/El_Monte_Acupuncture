@@ -1616,6 +1616,82 @@
   text-shadow: 1px 1px 1px #3898ec;
 }
 
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+._404_section {
+  height: 65vh;
+}
+
+.main_container-2 {
+  width: 100vw;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+.legal_h1 {
+  font-size: 65px;
+  line-height: 65px;
+  text-align: center;
+}
+
+.legal_timestamp {
+  text-align: center;
+}
+
+.blue_link {
+  color: #3898ec;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.legal_h2 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.legal_h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
 @media screen and (max-width: 991px) {
   .main_container {
     width: 90vw;
@@ -1711,6 +1787,18 @@
     font-size: 40px;
     line-height: 40px;
   }
+  .main_container-2 {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .legal_h2 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .legal_h3 {
+    font-size: 14px;
+    line-height: 14px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1739,6 +1827,10 @@
   }
   .horizontal_wrapper {
     top: 35px;
+  }
+  .legal_h2 {
+    font-size: 16px;
+    line-height: 16px;
   }
 }
 
@@ -2371,6 +2463,21 @@
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.25;
+  }
+  .main_container-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .legal_h1 {
+    font-size: 35px;
+    line-height: 35px;
   }
 }
 
