@@ -1714,6 +1714,20 @@
 }
 
 @media screen and (max-width: 767px) {
+  .ends_container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  ._4_block_row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
   .cards_grid {
     max-width: none;
     -ms-grid-row-align: stretch;
@@ -2245,6 +2259,7 @@
     height: 150px;
     margin-top: 57px;
     margin-bottom: 0px;
+    border: 0px none #000;
   }
   .services_mobile_picture_block_acupuncture {
     position: absolute;
@@ -2274,6 +2289,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    border: 0px none #000;
   }
   .ailment_h3_mobile {
     font-size: 20px;
@@ -2322,6 +2338,7 @@
     margin-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
+    border: 1px none #000;
     background-image: url('../images/ear_acupuncture.jpg');
     background-position: 50% 50%;
     background-size: cover;
@@ -2348,6 +2365,7 @@
     margin-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
+    border: 1px none #000;
     background-image: url('../images/heat_lamp_therapy.jpg');
     background-position: 50% 50%;
     background-size: cover;
