@@ -120,6 +120,7 @@
   width: 90%;
   margin-right: auto;
   margin-left: auto;
+  text-align: center;
 }
 
 .parallax_block_herbs {
@@ -523,7 +524,7 @@
 
 .testimonial_author {
   display: block;
-  margin-left: 228px;
+  margin-left: 0px;
   text-align: right;
 }
 
@@ -533,7 +534,7 @@
 
 .testimonial_date {
   display: block;
-  margin-left: 239px;
+  margin-left: 0px;
   text-align: right;
 }
 
@@ -814,8 +815,8 @@
 }
 
 .submit-button {
-  width: 115px;
-  height: 45px;
+  width: 135px;
+  height: 50px;
   margin: 10px 0px 0px;
   border-radius: 20px;
   background-color: #3898ec;
@@ -937,8 +938,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 125px;
-  height: 45px;
+  width: 165px;
+  height: 50px;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-pack: center;
@@ -963,8 +964,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 115px;
-  height: 45px;
+  width: 135px;
+  height: 50px;
   margin-top: 159px;
   margin-right: auto;
   margin-left: auto;
@@ -1296,6 +1297,7 @@
 
 .body {
   font-family: Lato, sans-serif;
+  font-size: 16px;
 }
 
 ._2_block_middle {
@@ -1319,8 +1321,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 165px;
-  height: 45px;
+  width: 185px;
+  height: 50px;
   margin-top: 35px;
   margin-right: auto;
   margin-left: auto;
@@ -1653,6 +1655,10 @@
   height: 65vh;
 }
 
+.privacy_section_main {
+  padding-top: 75px;
+}
+
 .main_container-2 {
   width: 100vw;
   max-width: 1200px;
@@ -1690,6 +1696,55 @@
   margin-bottom: 5px;
   font-size: 16px;
   line-height: 16px;
+}
+
+.privacy_section_14 {
+  padding-bottom: 75px;
+}
+
+.body-2 {
+  font-size: 16px;
+}
+
+.ryu_body {
+  font-size: 16px;
+}
+
+.body-3 {
+  font-size: 16px;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.section_h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 55px;
+  line-height: 55px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #3898ec;
+}
+
+.terms_of_use_section {
+  height: auto;
+  padding-top: 75px;
+  padding-right: 0px;
+  padding-bottom: 75px;
 }
 
 @media screen and (max-width: 991px) {
@@ -2478,6 +2533,10 @@
   .legal_h1 {
     font-size: 35px;
     line-height: 35px;
+  }
+  .section_h1 {
+    font-size: 30px;
+    line-height: 30px;
   }
 }
 
