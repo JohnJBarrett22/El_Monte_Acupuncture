@@ -488,7 +488,9 @@
 
 ._5_star {
   display: block;
-  margin-left: 186px;
+  margin-right: 0px;
+  margin-left: auto;
+  padding-right: 0px;
   padding-left: 0px;
   text-align: right;
 }
