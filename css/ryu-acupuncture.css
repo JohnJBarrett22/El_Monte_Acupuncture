@@ -2090,8 +2090,7 @@
     text-align: center;
   }
   .cards_grid {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin: 0px 0px 15px;
     padding-top: 20px;
     padding-bottom: 20px;
     -ms-grid-columns: 1fr;
@@ -2164,10 +2163,10 @@
     object-position: 50% 50%;
   }
   .testimonial_author {
-    margin-left: 130px;
+    margin-left: 0px;
   }
   .testimonial_date {
-    margin-left: 120px;
+    margin-left: 0px;
   }
   .testimonial_card_2 {
     width: 270px;
@@ -2236,10 +2235,10 @@
     margin-left: 235px;
   }
   .testimonial_location {
-    margin-left: 103px;
+    margin-left: 0px;
   }
   .testimonial_source {
-    margin-left: 71px;
+    margin-left: 0px;
   }
   .filter-controls {
     -webkit-box-orient: vertical;
@@ -2528,8 +2527,8 @@
   .services_h3_mobile {
     margin-top: 0px;
     margin-bottom: 0px;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 24px;
   }
   .services_mobile_picture_block_herbs {
     position: absolute;
@@ -2612,6 +2611,21 @@
   .legal_h1 {
     font-size: 35px;
     line-height: 35px;
+  }
+  .legal_h2 {
+    display: block;
+    overflow: visible;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    white-space: normal;
+    -o-object-fit: fill;
+    object-fit: fill;
   }
   .ryu_body {
     max-width: 100vw;
@@ -2736,6 +2750,12 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+  .form-block {
+    margin-top: 25px;
+  }
+  .form {
+    margin-top: 15px;
   }
 }
 
