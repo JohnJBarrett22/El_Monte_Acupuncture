@@ -1799,6 +1799,29 @@
   margin-top: 15px;
 }
 
+._2_block_hours {
+  overflow: visible;
+  width: 50%;
+  padding: 0px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+._2_block_hours.margin_left {
+  margin-left: 15px;
+}
+
+._2_block_hours.margin_right {
+  margin-right: 15px;
+}
+
 @media screen and (max-width: 991px) {
   .main_container {
     width: 90vw;
@@ -1836,12 +1859,14 @@
   }
   .days_text {
     padding-top: 5px;
-    padding-right: 0px;
+    padding-right: 10px;
     font-size: 12px;
     line-height: 16px;
   }
   .testimonial_image {
-    margin-left: 520px;
+    width: 45px;
+    height: 45px;
+    margin-left: 545px;
   }
   .neurological_block {
     width: 40%;
@@ -1979,9 +2004,15 @@
     display: block;
     padding-right: 0px;
   }
+  ._2_block_hours {
+    padding-right: 0px;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  ._2_block {
+    width: 50%;
+  }
   .ends_container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1996,6 +2027,10 @@
     -ms-flex-direction: row;
     flex-direction: row;
   }
+  .footer_h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
   .cards_grid {
     max-width: none;
     -ms-grid-row-align: stretch;
@@ -2005,15 +2040,50 @@
     -ms-grid-rows: auto auto auto;
     grid-template-rows: auto auto auto;
   }
+  .days_text {
+    margin-bottom: 10px;
+    padding-right: 10px;
+  }
   .horizontal_wrapper {
     top: 35px;
+  }
+  .filter-button.ryu_testimonial_button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+  ._2_block_row_ailment_left {
+    height: 375px;
+  }
+  .services_h3_mobile {
+    margin-top: 0px;
   }
   .legal_h2 {
     font-size: 16px;
     line-height: 16px;
   }
   ._360_frame_block {
+    width: 70%;
     height: 250px;
+  }
+  .hours_block {
+    width: 30%;
+  }
+  .hours_text {
+    margin-bottom: 10px;
+  }
+  ._2_block_day_short {
+    width: 35%;
+  }
+  ._2_block_hours {
+    width: 65%;
   }
 }
 
@@ -2756,6 +2826,13 @@
   }
   .form {
     margin-top: 15px;
+  }
+  ._2_block_hours.margin_left {
+    width: 100%;
+    margin-left: 0px;
+  }
+  ._2_block_hours.margin_right {
+    width: 100%;
   }
 }
 
