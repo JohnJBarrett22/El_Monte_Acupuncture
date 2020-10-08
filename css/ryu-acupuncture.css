@@ -1512,6 +1512,10 @@
   height: 128px;
 }
 
+.icon_para {
+  text-align: left;
+}
+
 .services_picture_section_mobile {
   display: none;
 }
@@ -1729,14 +1733,6 @@
   object-fit: fill;
 }
 
-._2_block_day_full.margin_left {
-  margin-left: 15px;
-}
-
-._2_block_day_full.margin_right {
-  margin-right: 15px;
-}
-
 ._2_block_day_short {
   display: none;
   overflow: visible;
@@ -1753,14 +1749,6 @@
   object-fit: fill;
 }
 
-._2_block_day_short.margin_left {
-  margin-left: 15px;
-}
-
-._2_block_day_short.margin_right {
-  margin-right: 15px;
-}
-
 ._2_block_row_info {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1772,14 +1760,6 @@
   justify-content: center;
 }
 
-._2_block_row_info.margin_bottom {
-  margin-bottom: 15px;
-}
-
-._2_block_row_info.margin_top {
-  margin-top: 15px;
-}
-
 ._2_block_row_horizontal {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1789,14 +1769,6 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-
-._2_block_row_horizontal.margin_bottom {
-  margin-bottom: 15px;
-}
-
-._2_block_row_horizontal.margin_top {
-  margin-top: 15px;
 }
 
 ._2_block_hours {
@@ -1812,14 +1784,6 @@
   flex: 0 auto;
   -o-object-fit: fill;
   object-fit: fill;
-}
-
-._2_block_hours.margin_left {
-  margin-left: 15px;
-}
-
-._2_block_hours.margin_right {
-  margin-right: 15px;
 }
 
 @media screen and (max-width: 991px) {
@@ -2013,6 +1977,10 @@
   ._2_block {
     width: 50%;
   }
+  .ryu_title {
+    font-size: 65px;
+    line-height: 65px;
+  }
   .ends_container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2044,8 +2012,28 @@
     margin-bottom: 10px;
     padding-right: 10px;
   }
+  ._65_block.margin_left {
+    width: 100%;
+    margin-left: 0px;
+  }
+  ._35_block.margin_right {
+    width: 100%;
+    margin-right: 0px;
+  }
   .horizontal_wrapper {
     top: 35px;
+  }
+  ._45_block.margin_right {
+    width: 100%;
+    margin-right: 0px;
+  }
+  ._55_block.margin_left {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
   }
   .filter-button.ryu_testimonial_button {
     display: -webkit-box;
@@ -2062,6 +2050,31 @@
   ._2_block_row_ailment_left {
     height: 375px;
   }
+  ._2_block_row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  ._2_block_row.margin_bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  ._2_block_row.margin_top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .eastern_medicine_icons {
+    width: 90px;
+    height: 90px;
+  }
   .services_h3_mobile {
     margin-top: 0px;
   }
@@ -2072,6 +2085,9 @@
   ._360_frame_block {
     width: 70%;
     height: 250px;
+  }
+  .paragraph-8 {
+    display: none;
   }
   .hours_block {
     width: 30%;
@@ -2765,20 +2781,6 @@
   .list-item-7 {
     line-height: 14px;
   }
-  ._2_block_day_full.margin_left {
-    width: 100%;
-    margin-left: 0px;
-  }
-  ._2_block_day_full.margin_right {
-    width: 100%;
-  }
-  ._2_block_day_short.margin_left {
-    width: 100%;
-    margin-left: 0px;
-  }
-  ._2_block_day_short.margin_right {
-    width: 100%;
-  }
   .lightbox-link {
     margin-bottom: 15px;
   }
@@ -2826,13 +2828,6 @@
   }
   .form {
     margin-top: 15px;
-  }
-  ._2_block_hours.margin_left {
-    width: 100%;
-    margin-left: 0px;
-  }
-  ._2_block_hours.margin_right {
-    width: 100%;
   }
 }
 
