@@ -797,10 +797,6 @@
   text-shadow: 1px 1px 1px #3898ec;
 }
 
-.paragraph-6 {
-  margin-bottom: 0px;
-}
-
 .ryu_h3 {
   margin: 25px 0px;
   font-style: italic;
@@ -1603,14 +1599,6 @@
   padding-top: 75px;
 }
 
-.main_container-2 {
-  width: 100vw;
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: left;
-}
-
 .legal_h1 {
   font-size: 65px;
   line-height: 65px;
@@ -1633,6 +1621,7 @@
   font-family: Verdana, Geneva, sans-serif;
   font-size: 22px;
   line-height: 22px;
+  text-shadow: 1px 1px 1px #3898ec;
 }
 
 .legal_h3 {
@@ -1675,13 +1664,6 @@
   line-height: 55px;
   text-align: center;
   text-shadow: 1px 1px 1px #3898ec;
-}
-
-.terms_of_use_section {
-  height: auto;
-  padding-top: 75px;
-  padding-right: 0px;
-  padding-bottom: 75px;
 }
 
 .testimonials_section_mobile {
@@ -1815,19 +1797,6 @@
   padding-top: 75px;
 }
 
-.legal_h2-2 {
-  margin-top: 30px;
-  margin-bottom: 5px;
-  font-size: 22px;
-  line-height: 22px;
-}
-
-.orange_link {
-  color: #f59516;
-  font-weight: 700;
-  text-decoration: none;
-}
-
 .tou_section_22 {
   margin-bottom: 0px;
   padding-bottom: 75px;
@@ -1845,6 +1814,8 @@
   }
   .ryu_title {
     margin-top: 230px;
+    font-size: 65px;
+    line-height: 65px;
   }
   .cards_grid {
     grid-column-gap: 20px;
@@ -1873,6 +1844,14 @@
     padding-right: 10px;
     font-size: 12px;
     line-height: 16px;
+  }
+  .testimonial_para {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .ryu_h3 {
+    margin-top: 4px;
+    margin-bottom: 20px;
   }
   .testimonial_image {
     width: 45px;
@@ -1937,12 +1916,9 @@
     line-height: 40px;
   }
   .services_h3_mobile {
+    margin-top: 0px;
     font-size: 25px;
     line-height: 25px;
-  }
-  .main_container-2 {
-    padding-right: 25px;
-    padding-left: 25px;
   }
   .legal_h2 {
     font-size: 18px;
@@ -2018,15 +1994,21 @@
   ._2_block_hours {
     padding-right: 0px;
   }
-  .legal_h2-2 {
-    font-size: 18px;
-    line-height: 18px;
-  }
 }
 
 @media screen and (max-width: 767px) {
   ._2_block {
     width: 50%;
+  }
+  ._2_block.margin_left {
+    width: 100%;
+    margin-left: 0px;
+  }
+  ._2_block.margin_right {
+    width: 100%;
+  }
+  .contact_section {
+    height: auto;
   }
   .ryu_title {
     font-size: 65px;
@@ -2073,6 +2055,9 @@
   }
   .horizontal_wrapper {
     top: 35px;
+  }
+  .testimonial_card_1 {
+    height: 500px;
   }
   ._45_block.margin_right {
     width: 100%;
@@ -2151,10 +2136,6 @@
   }
   ._2_block_hours {
     width: 65%;
-  }
-  .legal_h2-2 {
-    font-size: 16px;
-    line-height: 16px;
   }
 }
 
@@ -2737,17 +2718,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.25;
-  }
-  .main_container-2 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
   }
   .legal_h1 {
     font-size: 35px;
