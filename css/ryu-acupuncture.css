@@ -23,6 +23,7 @@
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 0px;
 }
 
 .navbar {
@@ -800,7 +801,7 @@
   margin-bottom: 0px;
 }
 
-.ryu_h4 {
+.ryu_h3 {
   margin: 25px 0px;
   font-style: italic;
 }
@@ -968,8 +969,10 @@
   border-color: #000 #000 #3898ec;
 }
 
-.ailment_h3 {
+.ailment_h2 {
   font-family: Verdana, Geneva, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
   text-align: center;
   text-shadow: 1px 1px 1px #3898ec;
 }
@@ -1645,6 +1648,7 @@
 
 .ryu_body {
   font-size: 16px;
+  line-height: 24px;
 }
 
 .utility-page-form {
@@ -1799,6 +1803,34 @@
   flex: 0 auto;
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+.disclaimer_para {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.tou_section_main {
+  padding-top: 75px;
+}
+
+.legal_h2-2 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.orange_link {
+  color: #f59516;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.tou_section_22 {
+  margin-bottom: 0px;
+  padding-bottom: 75px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1986,6 +2018,10 @@
   ._2_block_hours {
     padding-right: 0px;
   }
+  .legal_h2-2 {
+    font-size: 18px;
+    line-height: 18px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2115,6 +2151,10 @@
   }
   ._2_block_hours {
     width: 65%;
+  }
+  .legal_h2-2 {
+    font-size: 16px;
+    line-height: 16px;
   }
 }
 
@@ -2371,7 +2411,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  .ailment_h3 {
+  .ailment_h2 {
     font-size: 20px;
     line-height: 20px;
   }
