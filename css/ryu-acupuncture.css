@@ -2157,7 +2157,7 @@
   }
   ._4_block {
     display: block;
-    width: 90%;
+    width: 100%;
     margin-right: 0px;
     margin-left: 0px;
     -webkit-align-self: center;
@@ -2552,7 +2552,7 @@
     text-align: center;
   }
   .bio_para {
-    text-align: center;
+    text-align: left;
   }
   .ailment_list {
     padding-left: 0px;
@@ -2751,7 +2751,7 @@
   }
   ._4_block_left {
     display: block;
-    width: 90%;
+    width: 100%;
     margin-right: 0px;
     margin-bottom: 0px;
     -webkit-align-self: center;
@@ -2761,7 +2761,7 @@
   }
   ._4_block_right {
     display: block;
-    width: 90%;
+    width: 100%;
     margin-left: 0px;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -2829,6 +2829,9 @@
   .disclaimer_para {
     font-size: 16px;
     line-height: 24px;
+  }
+  .list-3 {
+    padding-left: 25px;
   }
 }
 
