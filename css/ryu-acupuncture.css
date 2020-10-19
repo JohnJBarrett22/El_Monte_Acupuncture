@@ -287,7 +287,7 @@
   text-align: center;
 }
 
-.text-block-2 {
+.legal_text {
   color: #000;
   font-size: 12px;
   font-weight: 700;
@@ -323,7 +323,7 @@
   font-weight: 400;
 }
 
-.footer_list_item {
+.footer_icons {
   font-family: 'Fa brands 400', sans-serif;
   color: #fff;
   font-size: 22px;
@@ -472,10 +472,6 @@
   border: 2px solid #93c7f4;
   border-radius: 20px;
   box-shadow: 4px 4px 15px 0 grey;
-}
-
-.paragraph-5 {
-  display: block;
 }
 
 ._5_star {
@@ -1831,7 +1827,7 @@
   .footer_link-2.footer_icon {
     margin-top: 5px;
   }
-  .footer_list_item {
+  .footer_icons {
     font-size: 12px;
     line-height: 14px;
   }
@@ -1940,48 +1936,9 @@
     font-size: 12px;
     line-height: 16px;
   }
-  .list-item {
+  .footer_hours {
     font-size: 12px;
     line-height: 12px;
-  }
-  .list-item-2 {
-    font-size: 12px;
-    line-height: 12px;
-  }
-  .list-item-3 {
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .list-item-4 {
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .list-item-5 {
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .list-item-6 {
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .list-item-7 {
-    font-size: 12px;
-  }
-  .list-item-8 {
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .list-item-9 {
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .list-item-10 {
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .list-item-11 {
-    font-size: 12px;
-    line-height: 14px;
   }
   ._2_block_day_full {
     display: none;
@@ -2218,6 +2175,9 @@
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+  .cards_para {
+    text-align: left;
+  }
   .footer_grid_2_block {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -2226,15 +2186,26 @@
     justify-items: center;
   }
   .footer_link {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 24px;
     text-align: center;
+  }
+  .link_white {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .legal_text {
+    line-height: 18px;
   }
   .footer_grid_1_block {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+  .footer_icons {
+    font-size: 16px;
+    line-height: 24px;
   }
   .ailment_list_item {
     font-size: 12px;
@@ -2572,7 +2543,7 @@
   .solo_para {
     margin-top: 15px;
     margin-bottom: 15px;
-    text-align: center;
+    text-align: left;
   }
   .list {
     text-align: center;
@@ -2803,8 +2774,9 @@
     line-height: 15px;
     text-align: right;
   }
-  .list-item-7 {
-    line-height: 14px;
+  .footer_hours {
+    font-size: 16px;
+    line-height: 24px;
   }
   .lightbox-link {
     margin-bottom: 15px;
@@ -2853,6 +2825,10 @@
   }
   .form {
     margin-top: 15px;
+  }
+  .disclaimer_para {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
