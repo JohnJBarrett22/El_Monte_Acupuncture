@@ -193,7 +193,7 @@
 
 ._4_block {
   width: 25%;
-  margin: 0px 7.5px;
+  margin: 0px 15px;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -486,16 +486,22 @@
 .testimonial_author {
   display: block;
   margin-left: 0px;
+  font-size: 14px;
+  line-height: 21px;
   text-align: right;
 }
 
 .testimonial_para {
+  font-size: 14px;
+  line-height: 21px;
   font-style: italic;
 }
 
 .testimonial_date {
   display: block;
   margin-left: 0px;
+  font-size: 14px;
+  line-height: 21px;
   text-align: right;
 }
 
@@ -794,7 +800,7 @@
 }
 
 .ryu_h3 {
-  margin: 25px 0px;
+  margin: 10px 0px;
   font-style: italic;
 }
 
@@ -843,11 +849,15 @@
 
 .testimonial_location {
   margin-left: 239px;
+  font-size: 14px;
+  line-height: 21px;
   text-align: right;
 }
 
 .testimonial_source {
   margin-left: 239px;
+  font-size: 14px;
+  line-height: 21px;
   text-align: right;
 }
 
@@ -1295,11 +1305,13 @@
 
 .nav_link {
   font-size: 14px;
+  line-height: 21px;
   font-weight: 700;
 }
 
 .nav_link.w--current {
   font-size: 14px;
+  line-height: 21px;
   font-weight: 700;
 }
 
