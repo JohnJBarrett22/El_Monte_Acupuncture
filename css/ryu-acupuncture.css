@@ -252,7 +252,7 @@
 }
 
 .cards_para {
-  text-align: center;
+  text-align: left;
 }
 
 .footer_grid_2_block {
@@ -1685,7 +1685,7 @@
 }
 
 ._360_frame_block {
-  width: 75%;
+  width: 74.75%;
   height: 500px;
   margin-bottom: 15px;
 }
@@ -1693,11 +1693,11 @@
 .paragraph-8 {
   color: #3898ec;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
 }
 
 .hours_block {
-  width: 25%;
+  width: 25.25%;
   padding-right: 15px;
   padding-left: 15px;
 }
