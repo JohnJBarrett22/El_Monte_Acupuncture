@@ -2285,14 +2285,14 @@
   }
 
   .footer_link {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 22.5px;
     text-align: center;
   }
 
   .link_white {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 22.5px;
   }
 
   .legal_text {
@@ -2450,10 +2450,67 @@
     margin-left: 0px;
   }
 
+  .testimonial_block.mix.yelp._2008 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.yelp._2009 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.yelp._2010 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.yelp._2011 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.yelp._2012 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.yelp._2013 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.yelp._2014 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.yelp._2015 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.yelp._2016 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.yelp._2017 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.yelp._2018 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.yelp._2019 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.yelp._2020 {
+    padding: 15px 0px;
+  }
+
+  .testimonial_block.mix.google._2018 {
+    padding: 15px 0px;
+  }
+
   .testimonial_image {
     width: 35px;
     height: 35px;
-    margin-left: 235px;
+    margin-left: auto;
+    float: none;
   }
 
   .testimonial_location {
@@ -2521,6 +2578,10 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .image {
+    margin-bottom: 15px;
   }
 
   .neurological_block {
@@ -2877,6 +2938,12 @@
   .legal_h2 {
     display: block;
     overflow: visible;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
@@ -2892,6 +2959,8 @@
 
   .ryu_body {
     max-width: 100vw;
+    font-size: 15px;
+    line-height: 22.5px;
   }
 
   .section_h1 {
@@ -2968,8 +3037,8 @@
   }
 
   .footer_hours {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 22.5px;
   }
 
   .lightbox-link {
@@ -3029,12 +3098,16 @@
   }
 
   .disclaimer_para {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 22.5px;
   }
 
   .list-3 {
     padding-left: 25px;
+  }
+
+  .image-3 {
+    margin-bottom: 15px;
   }
 }
 
