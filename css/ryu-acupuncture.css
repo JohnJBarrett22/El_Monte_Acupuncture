@@ -1816,152 +1816,193 @@
   .main_container {
     width: 90vw;
   }
+
   ._2_block_row_ailment_right {
     height: 375px;
   }
+
   ._2_block {
     padding-right: 0px;
   }
+
   .ryu_title {
     margin-top: 230px;
     font-size: 65px;
     line-height: 65px;
   }
+
   .cards_grid {
     grid-column-gap: 20px;
   }
+
   .footer_link {
     font-size: 12px;
     line-height: 14px;
   }
+
   .footer_link-2 {
     font-size: 12px;
     line-height: 14px;
   }
+
   .footer_link-2.footer_icon {
     margin-top: 5px;
   }
+
   .footer_icons {
     font-size: 12px;
     line-height: 14px;
   }
+
   .contact_page_section {
     padding-right: 0px;
     padding-left: 0px;
   }
+
   .days_text {
     padding-top: 5px;
     padding-right: 10px;
     font-size: 12px;
     line-height: 16px;
   }
+
   .testimonial_para {
     font-size: 14px;
     line-height: 21px;
   }
+
   .ryu_h3 {
     margin-top: 4px;
     margin-bottom: 20px;
   }
+
   .testimonial_image {
     width: 45px;
     height: 45px;
     margin-left: 545px;
   }
+
   .neurological_block {
     width: 40%;
   }
+
   .services_mask_right {
     background-image: -webkit-gradient(linear, left top, right top, from(#fff), color-stop(35%, transparent));
     background-image: linear-gradient(90deg, #fff, transparent 35%);
   }
+
   .dermatological_block {
     width: 40%;
   }
+
   .muscoskeletal_block {
     width: 40%;
   }
+
   .services_mask_left {
     background-image: -webkit-gradient(linear, left top, right top, color-stop(65%, transparent), to(#fff));
     background-image: linear-gradient(90deg, transparent 65%, #fff);
   }
+
   .urological_block {
     width: 40%;
   }
+
   .gastrointestinal_block {
     width: 40%;
   }
+
   .addiction_block {
     width: 40%;
   }
+
   .respitory_block {
     width: 40%;
   }
+
   .reproductive_block {
     width: 40%;
   }
+
   .chronic_conditions_block {
     width: 40%;
   }
+
   .ent_block {
     width: 40%;
   }
+
   .psychological_block {
     width: 40%;
   }
+
   .circulatory_block {
     width: 40%;
   }
+
   .autoimmune_disorders_block {
     width: 40%;
   }
+
   .immune_system_block {
     width: 40%;
   }
+
   ._2_block_middle {
     width: 60%;
   }
+
   .services_content_h3 {
     font-size: 40px;
     line-height: 40px;
   }
+
   .services_h3_mobile {
     margin-top: 0px;
     font-size: 25px;
     line-height: 25px;
   }
+
   .legal_h2 {
     font-size: 18px;
     line-height: 18px;
   }
+
   .legal_h3 {
     font-size: 14px;
     line-height: 14px;
   }
+
   ._360_frame_block {
     height: 300px;
   }
+
   .paragraph-8 {
     display: none;
   }
+
   .hours_text {
     padding-top: 5px;
     padding-left: 0px;
     font-size: 12px;
     line-height: 16px;
   }
+
   .footer_hours {
     font-size: 12px;
     line-height: 12px;
   }
+
   ._2_block_day_full {
     display: none;
     padding-right: 0px;
   }
+
   ._2_block_day_short {
     display: block;
     padding-right: 0px;
   }
+
   ._2_block_hours {
     padding-right: 0px;
   }
@@ -1971,20 +2012,25 @@
   ._2_block {
     width: 50%;
   }
+
   ._2_block.margin_left {
     width: 100%;
     margin-left: 0px;
   }
+
   ._2_block.margin_right {
     width: 100%;
   }
+
   .contact_section {
     height: auto;
   }
+
   .ryu_title {
     font-size: 65px;
     line-height: 65px;
   }
+
   .ends_container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1992,6 +2038,7 @@
     -ms-flex-direction: row;
     flex-direction: row;
   }
+
   ._4_block_row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1999,10 +2046,12 @@
     -ms-flex-direction: row;
     flex-direction: row;
   }
+
   .footer_h3 {
     font-size: 20px;
     line-height: 24px;
   }
+
   .cards_grid {
     max-width: none;
     -ms-grid-row-align: stretch;
@@ -2012,28 +2061,35 @@
     -ms-grid-rows: auto auto auto;
     grid-template-rows: auto auto auto;
   }
+
   .days_text {
     margin-bottom: 10px;
     padding-right: 10px;
   }
+
   ._65_block.margin_left {
     width: 100%;
     margin-left: 0px;
   }
+
   ._35_block.margin_right {
     width: 100%;
     margin-right: 0px;
   }
+
   .horizontal_wrapper {
     top: 35px;
   }
+
   .testimonial_card_1 {
     height: 500px;
   }
+
   ._45_block.margin_right {
     width: 100%;
     margin-right: 0px;
   }
+
   ._55_block.margin_left {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2042,6 +2098,7 @@
     width: 100%;
     margin-left: 0px;
   }
+
   .filter-button.ryu_testimonial_button {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2054,9 +2111,11 @@
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
+
   ._2_block_row_ailment_left {
     height: 375px;
   }
+
   ._2_block_row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -2064,6 +2123,7 @@
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
+
   ._2_block_row.margin_bottom {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2071,6 +2131,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   ._2_block_row.margin_top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2078,33 +2139,42 @@
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .eastern_medicine_icons {
     width: 90px;
     height: 90px;
   }
+
   .services_h3_mobile {
     margin-top: 0px;
   }
+
   .legal_h2 {
     font-size: 16px;
     line-height: 16px;
   }
+
   ._360_frame_block {
     width: 70%;
     height: 250px;
   }
+
   .paragraph-8 {
     display: none;
   }
+
   .hours_block {
     width: 30%;
   }
+
   .hours_text {
     margin-bottom: 10px;
   }
+
   ._2_block_day_short {
     width: 35%;
   }
+
   ._2_block_hours {
     width: 65%;
   }
@@ -2115,11 +2185,13 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .section_h2 {
     padding-top: 14px;
     font-size: 30px;
     line-height: 30px;
   }
+
   ._2_block_row_ailment_right {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2127,26 +2199,32 @@
     display: flex;
     height: 250px;
   }
+
   ._2_block.margin_left {
     width: 100%;
     margin-left: 0px;
   }
+
   ._2_block.margin_right {
     width: 100%;
   }
+
   .contact_section {
     height: auto;
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .ryu_title {
     font-size: 40px;
     line-height: 40px;
   }
+
   .ryu_tagline {
     font-size: 20px;
     line-height: 20px;
   }
+
   .ends_container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2158,6 +2236,7 @@
     -ms-flex-align: center;
     align-items: center;
   }
+
   ._4_block_row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2169,6 +2248,7 @@
     -ms-grid-row-align: center;
     align-self: center;
   }
+
   ._4_block {
     display: block;
     width: 100%;
@@ -2179,9 +2259,11 @@
     -ms-grid-row-align: center;
     align-self: center;
   }
+
   .footer_h3 {
     text-align: center;
   }
+
   .cards_grid {
     margin: 0px 0px 15px;
     padding-top: 20px;
@@ -2189,9 +2271,11 @@
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
   .cards_para {
     text-align: left;
   }
+
   .footer_grid_2_block {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -2199,44 +2283,54 @@
     justify-content: center;
     justify-items: center;
   }
+
   .footer_link {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
   }
+
   .link_white {
     font-size: 16px;
     line-height: 24px;
   }
+
   .legal_text {
     line-height: 18px;
   }
+
   .footer_grid_1_block {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
+
   .footer_icons {
     font-size: 16px;
     line-height: 24px;
   }
+
   .ailment_list_item {
     font-size: 12px;
     line-height: 14px;
   }
+
   .contact_page_section {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .testimonial_page_section {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .testimonials_section {
     display: none;
     height: 4500px;
   }
+
   .days_text {
     padding-right: 0px;
     padding-left: 20px;
@@ -2244,21 +2338,26 @@
     line-height: 15px;
     text-align: left;
   }
+
   ._65_block.margin_left {
     width: 100%;
     margin-left: 0px;
   }
+
   ._35_block.margin_right {
     width: 100%;
     margin-right: 0px;
   }
+
   .horizontal_scroll_content {
     width: 4500px;
   }
+
   .testimonial_card_1 {
     width: 290px;
     height: 600px;
   }
+
   ._5_star {
     margin-left: auto;
     float: none;
@@ -2269,52 +2368,65 @@
     -o-object-position: 50% 50%;
     object-position: 50% 50%;
   }
+
   .testimonial_author {
     margin-left: 0px;
   }
+
   .testimonial_date {
     margin-left: 0px;
   }
+
   .testimonial_card_2 {
     width: 270px;
     height: 600px;
   }
+
   .testimonial_card_3 {
     width: 270px;
     height: 600px;
   }
+
   .testimonial_card_4 {
     width: 270px;
     height: 600px;
   }
+
   .testimonial_card_5 {
     width: 270px;
     height: 600px;
   }
+
   .testimonial_card_6 {
     width: 270px;
     height: 600px;
   }
+
   .testimonial_card_7 {
     width: 270px;
     height: 600px;
   }
+
   .testimonial_card_8 {
     width: 270px;
     height: 600px;
   }
+
   .testimonial_card_9 {
     width: 270px;
     height: 600px;
   }
+
   .testimonial_card_10 {
     width: 270px;
     height: 600px;
   }
+
   .testimonial_card_11 {
     width: 270px;
     height: 600px;
   }
+
   ._45_block.margin_right {
     width: 100%;
     margin-right: 0px;
@@ -2332,21 +2444,26 @@
     flex: 0 auto;
     text-align: center;
   }
+
   ._55_block.margin_left {
     width: 100%;
     margin-left: 0px;
   }
+
   .testimonial_image {
     width: 35px;
     height: 35px;
     margin-left: 235px;
   }
+
   .testimonial_location {
     margin-left: 0px;
   }
+
   .testimonial_source {
     margin-left: 0px;
   }
+
   .filter-controls {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2364,26 +2481,32 @@
     -ms-flex-line-pack: stretch;
     align-content: stretch;
   }
+
   .filter-button.ryu_testimonial_button {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   .conditions_treated_page {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   ._2_block_row_ailment_left {
     height: 250px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
+
   .ailment_h2 {
     font-size: 20px;
     line-height: 20px;
   }
+
   ._3_block {
     opacity: 1;
   }
+
   ._2_block_row {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2399,6 +2522,7 @@
     -ms-flex-align: center;
     align-items: center;
   }
+
   .neurological_block {
     position: absolute;
     z-index: -1;
@@ -2407,9 +2531,11 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .services_mask_right {
     display: none;
   }
+
   .dermatological_block {
     position: absolute;
     z-index: -1;
@@ -2418,6 +2544,7 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .muscoskeletal_block {
     position: absolute;
     z-index: -1;
@@ -2426,10 +2553,12 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .services_mask_left {
     display: none;
     height: auto;
   }
+
   .urological_block {
     position: absolute;
     z-index: -1;
@@ -2438,6 +2567,7 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .gastrointestinal_block {
     position: absolute;
     z-index: -1;
@@ -2446,6 +2576,7 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .addiction_block {
     position: absolute;
     z-index: -1;
@@ -2454,6 +2585,7 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .respitory_block {
     position: absolute;
     z-index: -1;
@@ -2462,6 +2594,7 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .reproductive_block {
     position: absolute;
     z-index: -1;
@@ -2470,6 +2603,7 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .chronic_conditions_block {
     position: absolute;
     z-index: -1;
@@ -2478,6 +2612,7 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .ent_block {
     position: absolute;
     z-index: -1;
@@ -2486,6 +2621,7 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .psychological_block {
     position: absolute;
     z-index: -1;
@@ -2494,6 +2630,7 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .circulatory_block {
     position: absolute;
     z-index: -1;
@@ -2502,6 +2639,7 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .autoimmune_disorders_block {
     position: absolute;
     z-index: -1;
@@ -2510,6 +2648,7 @@
     height: 250px;
     opacity: 0.25;
   }
+
   .immune_system_block {
     position: absolute;
     z-index: -1;
@@ -2518,15 +2657,18 @@
     height: 250px;
     opacity: 0.25;
   }
+
   ._2_block_middle {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
   }
+
   .photo._1 {
     display: block;
   }
+
   .services_picture_section {
     display: none;
     -webkit-box-orient: horizontal;
@@ -2535,46 +2677,57 @@
     -ms-flex-direction: row;
     flex-direction: row;
   }
+
   .services_content_h3 {
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
   }
+
   .column-1 {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
   }
+
   .services_intro_section {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .our_team_section {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
   .solo_para {
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: left;
   }
+
   .list {
     text-align: center;
   }
+
   .list-2 {
     text-align: center;
   }
+
   .bio_para {
     text-align: left;
   }
+
   .ailment_list {
     padding-left: 0px;
     text-align: center;
   }
+
   .nav-menu {
     background-color: #fafafa;
   }
+
   .services_picture_section_mobile {
     display: block;
     width: 100%;
@@ -2585,11 +2738,13 @@
     padding-bottom: 15px;
     text-align: left;
   }
+
   .services_mobile_info_block {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
   }
+
   ._2_block_row_services_mobile {
     width: 100%;
     height: 150px;
@@ -2597,6 +2752,7 @@
     margin-bottom: 0px;
     border: 0px none #000;
   }
+
   .services_mobile_picture_block_acupuncture {
     position: absolute;
     width: 100%;
@@ -2610,6 +2766,7 @@
     background-repeat: no-repeat;
     opacity: 0.25;
   }
+
   .services_mobile_header_block {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2627,16 +2784,19 @@
     align-items: center;
     border: 0px none #000;
   }
+
   .services_para_mobile {
     margin-top: 10px;
     text-align: left;
   }
+
   .services_h3_mobile {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 24px;
     line-height: 24px;
   }
+
   .services_mobile_picture_block_herbs {
     position: absolute;
     width: 100%;
@@ -2650,6 +2810,7 @@
     background-repeat: no-repeat;
     opacity: 0.25;
   }
+
   .services_mobile_picture_block_cupping {
     position: absolute;
     width: 100%;
@@ -2663,6 +2824,7 @@
     background-repeat: no-repeat;
     opacity: 0.25;
   }
+
   .services_mobile_picture_block_ear_seeds {
     position: absolute;
     width: 100%;
@@ -2677,6 +2839,7 @@
     background-repeat: no-repeat;
     opacity: 0.25;
   }
+
   .services_mobile_picture_block_moxibustion {
     position: absolute;
     width: 100%;
@@ -2690,6 +2853,7 @@
     background-repeat: no-repeat;
     opacity: 0.25;
   }
+
   .services_mobile_picture_block_infrared_treatment {
     position: absolute;
     width: 100%;
@@ -2704,10 +2868,12 @@
     background-repeat: no-repeat;
     opacity: 0.25;
   }
+
   .legal_h1 {
     font-size: 35px;
     line-height: 35px;
   }
+
   .legal_h2 {
     display: block;
     overflow: visible;
@@ -2723,34 +2889,42 @@
     -o-object-fit: fill;
     object-fit: fill;
   }
+
   .ryu_body {
     max-width: 100vw;
   }
+
   .section_h1 {
     font-size: 30px;
     line-height: 30px;
   }
+
   .testimonials_section_mobile {
     display: block;
     height: 100vh;
     padding-top: 75px;
     padding-bottom: 75px;
   }
+
   .slider {
     height: 100%;
     margin-top: 15px;
     margin-bottom: 25px;
     background-color: #fff;
   }
+
   .slide-nav {
     position: static;
   }
+
   .left-arrow {
     display: none;
   }
+
   .right-arrow {
     display: none;
   }
+
   ._360_frame_block {
     display: block;
     width: 100%;
@@ -2760,9 +2934,11 @@
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
   }
+
   .hours_block {
     width: 100%;
   }
+
   ._4_block_left {
     display: block;
     width: 100%;
@@ -2773,6 +2949,7 @@
     -ms-grid-row-align: center;
     align-self: center;
   }
+
   ._4_block_right {
     display: block;
     width: 100%;
@@ -2782,28 +2959,35 @@
     -ms-grid-row-align: center;
     align-self: center;
   }
+
   .hours_text {
     padding-right: 20px;
     font-size: 15px;
     line-height: 15px;
     text-align: right;
   }
+
   .footer_hours {
     font-size: 16px;
     line-height: 24px;
   }
+
   .lightbox-link {
     margin-bottom: 15px;
   }
+
   .lightbox-link-2 {
     margin-bottom: 15px;
   }
+
   .lightbox-link-3 {
     margin-bottom: 15px;
   }
+
   .lightbox-link-4 {
     margin-bottom: 15px;
   }
+
   ._2_block_row_info {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2819,6 +3003,7 @@
     -ms-flex-align: center;
     align-items: center;
   }
+
   ._2_block_row_horizontal {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2834,16 +3019,20 @@
     -ms-flex-align: center;
     align-items: center;
   }
+
   .form-block {
     margin-top: 25px;
   }
+
   .form {
     margin-top: 15px;
   }
+
   .disclaimer_para {
     font-size: 16px;
     line-height: 24px;
   }
+
   .list-3 {
     padding-left: 25px;
   }
@@ -2860,6 +3049,7 @@
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+
   #w-node-bb3cbd291f08-bfb09bd8 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
@@ -2872,6 +3062,7 @@
     -ms-grid-row-align: start;
     align-self: start;
   }
+
   #w-node-bb3cbd291eff-bfb09bd8 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
@@ -2882,6 +3073,7 @@
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+
   #w-node-bb3cbd291f01-bfb09bd8 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
@@ -2892,6 +3084,7 @@
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+
   #w-node-7dade4327f18-bfb09bd8 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
@@ -2902,6 +3095,7 @@
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+
   #w-node-7dade4327f1a-bfb09bd8 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
@@ -2912,6 +3106,7 @@
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+
   #w-node-7dade4327f1f-bfb09bd8 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
@@ -2922,6 +3117,7 @@
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+
   #w-node-7dade4327f21-bfb09bd8 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
@@ -2943,30 +3139,35 @@
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+
   #w-node-bb3cbd291f03-bfb09bd8 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+
   #w-node-bb3cbd291efc-bfb09bd8 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+
   #w-node-7dade4327f0e-bfb09bd8 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+
   #w-node-7dade4327f15-bfb09bd8 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+
   #w-node-7dade4327f1c-bfb09bd8 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
