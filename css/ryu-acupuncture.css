@@ -38,7 +38,7 @@
   min-height: 100vh;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 75px;
+  padding-top: 100px;
   padding-bottom: 75px;
 }
 
@@ -3171,7 +3171,7 @@
   }
 
   .bio_img {
-    height: 350px;
+    height: 375px;
     margin-bottom: 15px;
   }
 }
