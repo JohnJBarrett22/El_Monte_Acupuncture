@@ -1834,6 +1834,10 @@
     font-size: 15px;
     line-height: 22.5px;
   }
+
+  .site_map_section {
+    height: 65vh;
+  }
 }
 
 @media screen and (min-width: 1920px) {
