@@ -1820,8 +1820,37 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .about_section {
+    padding-bottom: 100px;
+  }
+
+  .services_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .contact_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .footer_link-2.footer_icon {
     color: #3898ec;
+  }
+
+  .testimonials_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .services_intro_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .our_team_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .ryu_body {
