@@ -1838,7 +1838,16 @@
     color: #3898ec;
   }
 
+  .contact_page_section {
+    padding: 75px 0px;
+  }
+
   .testimonials_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .conditions_treated_page {
     padding-top: 100px;
     padding-bottom: 100px;
   }
@@ -1853,9 +1862,26 @@
     padding-bottom: 100px;
   }
 
+  .privacy_section_14 {
+    padding-bottom: 100px;
+  }
+
   .ryu_body {
     font-size: 15px;
     line-height: 22.5px;
+  }
+
+  .tou_section_main {
+    padding-top: 100px;
+  }
+
+  .tou_section_22 {
+    padding-bottom: 100px;
+  }
+
+  .site_map_section {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 
