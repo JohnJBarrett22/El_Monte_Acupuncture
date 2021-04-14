@@ -1883,13 +1883,18 @@
   }
 
   .testimonials_section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 125px;
+    padding-bottom: 125px;
   }
 
   .conditions_treated_page {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+
+  .ryu_button_testimonial {
+    bottom: 4%;
+    margin-top: 313px;
   }
 
   .services_intro_section {
@@ -1927,6 +1932,10 @@
   .site_map_section {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+
+  .block_text_pre_h2 {
+    padding-top: 0px;
   }
 }
 
