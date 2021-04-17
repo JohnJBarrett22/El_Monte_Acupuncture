@@ -1689,7 +1689,7 @@
 
 .paragraph-8 {
   color: #3898ec;
-  font-weight: 700;
+  font-weight: 400;
   text-align: left;
 }
 
@@ -1747,13 +1747,12 @@
 }
 
 .hours_grid_block {
-  padding-top: 7px;
-  padding-bottom: 0px;
+  padding: 0px;
   -ms-grid-columns: 0.25fr 1fr;
   grid-template-columns: 0.25fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-  border-top: 1px solid #3898ec;
+  border: 1px none #000;
   text-align: left;
 }
 
@@ -1813,7 +1812,7 @@
   letter-spacing: 3px;
 }
 
-.circle-div {
+.circle_div {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1857,7 +1856,7 @@
   text-transform: uppercase;
 }
 
-.statistic-circle-wrap {
+.circle_wrapper {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1875,7 +1874,7 @@
   align-items: center;
 }
 
-.counterup {
+.counter {
   margin-top: 0px;
   margin-bottom: 10px;
   color: #3898ec;
@@ -1883,7 +1882,7 @@
   line-height: 52px;
 }
 
-.title-wrap {
+.statistics_title_wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1923,7 +1922,7 @@
   text-align: center;
 }
 
-.arrow-wrap {
+.arrow_wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1948,14 +1947,14 @@
   transform: rotate(0deg);
 }
 
-.container {
+.statistics_container {
   width: 100%;
   max-width: 1240px;
   margin-right: auto;
   margin-left: auto;
 }
 
-.feature-number-wrap {
+.featured_number_wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1994,7 +1993,7 @@
   background-color: #f0f7ff;
 }
 
-.title-capped {
+.circle_titles {
   color: #546681;
   font-size: 16px;
   letter-spacing: 2px;
@@ -2037,6 +2036,11 @@
 
 ._2_block_row_mini.margin_top {
   margin-top: 15px;
+}
+
+.image {
+  width: 75px;
+  height: 50px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -2358,11 +2362,11 @@
     display: block;
   }
 
-  .statistic-circle-wrap {
+  .circle_wrapper {
     width: 100%;
   }
 
-  .arrow-wrap {
+  .arrow_wrapper {
     padding-top: 25px;
     padding-bottom: 25px;
   }
@@ -2377,7 +2381,7 @@
     display: none;
   }
 
-  .feature-number-wrap {
+  .featured_number_wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3505,7 +3509,7 @@
     align-self: center;
   }
 
-  .arrow-wrap {
+  .arrow_wrapper {
     padding-top: 15px;
     padding-bottom: 15px;
   }
