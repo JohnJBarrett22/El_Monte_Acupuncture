@@ -345,7 +345,7 @@
 
 .contact_page_section {
   height: auto;
-  padding: 75px;
+  padding: 75px 75px 0px;
 }
 
 .testimonial_page_section {
@@ -1489,7 +1489,7 @@
 
 .our_team_section {
   padding-top: 75px;
-  padding-bottom: 75px;
+  padding-bottom: 0px;
 }
 
 .solo_para {
@@ -1732,6 +1732,8 @@
 .bio_img {
   height: 525px;
   margin: 0px 0px 50px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .block_text_pre_h2 {
