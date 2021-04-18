@@ -357,6 +357,7 @@
 .testimonials_section {
   display: block;
   height: 4000px;
+  margin-top: 0px;
   padding-top: 125px;
   padding-bottom: 125px;
 }
@@ -915,7 +916,7 @@
   left: 0%;
   top: auto;
   right: 0%;
-  bottom: 10%;
+  bottom: 5%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1737,6 +1738,7 @@
 }
 
 .block_text_pre_h2 {
+  padding-top: 30px;
   color: #3898ec;
   font-weight: 700;
   text-align: center;
