@@ -61,8 +61,8 @@
   margin-top: 15px;
   margin-bottom: 25px;
   font-family: Inter, sans-serif;
-  font-size: 45px;
-  line-height: 45px;
+  font-size: 40px;
+  line-height: 40px;
   font-weight: 700;
   text-align: center;
   letter-spacing: -0.5px;
@@ -821,9 +821,9 @@
 
 .testimonial_image {
   display: block;
-  width: 75px;
-  height: 75px;
-  margin-left: 1030px;
+  width: 55px;
+  height: 55px;
+  margin-left: auto;
   border-radius: 85px;
 }
 
@@ -1485,7 +1485,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 75px;
-  padding-bottom: 75px;
+  padding-bottom: 0px;
 }
 
 .our_team_section {
@@ -2045,6 +2045,10 @@
 .image {
   width: 75px;
   height: 50px;
+}
+
+.paragraph-9 {
+  font-weight: 700;
 }
 
 @media screen and (min-width: 1280px) {
