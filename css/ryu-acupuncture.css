@@ -1392,7 +1392,7 @@
 }
 
 .the-content._2 {
-  display: none;
+  display: block;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1402,7 +1402,7 @@
 }
 
 .the-content._5 {
-  display: none;
+  display: block;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1412,7 +1412,7 @@
 }
 
 .the-content._3 {
-  display: none;
+  display: block;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1422,7 +1422,7 @@
 }
 
 .the-content._6 {
-  display: none;
+  display: block;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1432,7 +1432,7 @@
 }
 
 .the-content._4 {
-  display: none;
+  display: block;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -2063,6 +2063,11 @@
 
 .success-message-2 {
   background-color: #f0f7ff;
+}
+
+.link-2 {
+  border: 1px none #000;
+  color: #3898ec;
 }
 
 @media screen and (min-width: 1280px) {
