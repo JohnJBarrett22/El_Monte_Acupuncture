@@ -128,10 +128,14 @@
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -1931,8 +1935,17 @@
 }
 
 .nav_bar_h3 {
-  margin-top: 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
   margin-bottom: 0px;
+  padding-top: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: 1px none #000;
   font-family: Inter, sans-serif;
   font-size: 16px;
@@ -2194,6 +2207,17 @@
     padding-right: 0px;
   }
 
+  .menu_container {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
   .ryu_title {
     margin-top: 230px;
     font-size: 65px;
@@ -2392,6 +2416,11 @@
 
   .arrow_image_right {
     display: none;
+  }
+
+  .nav_bar_h3 {
+    margin-top: 0px;
+    padding-top: 0px;
   }
 
   .arrow-image-mobile-left {
@@ -2609,6 +2638,12 @@
     margin-bottom: 15px;
   }
 
+  .text-block-4 {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   ._5_block_row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2619,6 +2654,19 @@
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+  }
+
+  ._5_block {
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+
+  ._5_block_right {
+    margin-left: 3px;
+  }
+
+  ._5_block_left {
+    margin-right: 3px;
   }
 
   .nav_bar_h3 {
@@ -2691,14 +2739,16 @@
   }
 
   .menu_container {
+    width: 90%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 
   .ryu_title {
@@ -3533,12 +3583,23 @@
     align-self: center;
   }
 
+  .gallery_image {
+    height: 200px;
+    -o-object-position: 50% 15%;
+    object-position: 50% 15%;
+  }
+
   .arrow_wrapper {
     padding-top: 15px;
     padding-bottom: 15px;
   }
 
   .nav_bar_h3 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 13px;
     text-align: center;
   }
 
@@ -3573,6 +3634,10 @@
     justify-content: center;
     -ms-grid-columns: 0.25fr;
     grid-template-columns: 0.25fr;
+  }
+
+  .menu-button {
+    padding-right: 0px;
   }
 }
 
