@@ -2690,6 +2690,17 @@
     padding-bottom: 15px;
   }
 
+  .menu_container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
   .ryu_title {
     font-size: 40px;
     line-height: 40px;
@@ -3550,6 +3561,7 @@
   .arrow-image-mobile-left {
     left: auto;
     right: 55px;
+    margin-right: 45px;
     -webkit-transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
     transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
   }
