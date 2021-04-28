@@ -19,7 +19,7 @@
 }
 
 .main_container {
-  width: 100vw;
+  width: 90vw;
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -2233,6 +2233,10 @@
     padding-bottom: 75px;
   }
 
+  .section_h2 {
+    margin-top: 7px;
+  }
+
   ._2_block_row_ailment_right {
     height: 375px;
   }
@@ -2309,6 +2313,12 @@
   .testimonial_para {
     font-size: 14px;
     line-height: 21px;
+  }
+
+  .section_h2_left {
+    margin-top: 7px;
+    font-size: 28px;
+    line-height: 36px;
   }
 
   .testimonial_image {
@@ -2450,8 +2460,22 @@
     height: 300px;
   }
 
+  ._5_block {
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+
+  ._5_block_right {
+    margin-left: 3px;
+  }
+
+  ._5_block_left {
+    margin-right: 3px;
+  }
+
   .block_text_pre_h2_left {
     margin-top: 0px;
+    margin-bottom: 7px;
   }
 
   .arrow_image_left_mobile {
@@ -2575,6 +2599,7 @@
 
   .footer_grid_2_block {
     width: 300px;
+    justify-items: center;
   }
 
   .footer_link {
@@ -2584,6 +2609,11 @@
 
   .footer_grid_hours_block {
     width: 300px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
   }
 
   ._65_block.margin_left {
@@ -2826,6 +2856,10 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -2833,13 +2867,23 @@
   }
 
   ._4_block {
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     width: 100%;
     margin-right: 0px;
     margin-left: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
     align-self: center;
   }
 
@@ -3791,6 +3835,11 @@
     grid-column-end: span 1;
     -ms-grid-row-align: start;
     align-self: start;
+  }
+
+  #w-node-_878de897-29f2-0589-e955-79ee46b4e1a9-46b4e169 {
+    -ms-grid-column-align: center;
+    justify-self: center;
   }
 }
 
