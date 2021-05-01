@@ -1380,7 +1380,7 @@
 }
 
 .the-content._5 {
-  display: none;
+  display: block;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1390,7 +1390,7 @@
 }
 
 .the-content._3 {
-  display: none;
+  display: block;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1400,7 +1400,7 @@
 }
 
 .the-content._6 {
-  display: none;
+  display: block;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1410,7 +1410,7 @@
 }
 
 .the-content._4 {
-  display: none;
+  display: block;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
