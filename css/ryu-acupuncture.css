@@ -38,8 +38,8 @@
   min-height: 100vh;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 125px;
-  padding-bottom: 125px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .services_section {
@@ -47,8 +47,8 @@
   min-height: 100vh;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 125px;
-  padding-bottom: 125px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer_section {
@@ -116,8 +116,8 @@
   min-height: 100vh;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 125px;
-  padding-bottom: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .menu_container {
@@ -350,21 +350,21 @@
 
 .contact_page_section {
   height: auto;
-  padding: 75px 0px 0px;
+  padding: 100px 0px;
 }
 
 .testimonial_page_section {
   height: auto;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .testimonials_section {
   display: block;
   height: 4000px;
   margin-top: 0px;
-  padding-top: 125px;
-  padding-bottom: 125px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .parallax_block_cupping {
@@ -863,8 +863,8 @@
 
 .conditions_treated_page {
   height: auto;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .ryu_button {
@@ -1380,7 +1380,7 @@
 }
 
 .the-content._5 {
-  display: block;
+  display: none;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1390,7 +1390,7 @@
 }
 
 .the-content._3 {
-  display: block;
+  display: none;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1400,7 +1400,7 @@
 }
 
 .the-content._6 {
-  display: block;
+  display: none;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1410,7 +1410,7 @@
 }
 
 .the-content._4 {
-  display: block;
+  display: none;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -1440,6 +1440,7 @@
   line-height: 60px;
   font-weight: 700;
   text-align: center;
+  text-shadow: 1px 1px 1px #3898ec;
 }
 
 .column-1 {
@@ -1455,20 +1456,20 @@
 
 .services_intro_section {
   margin: 0px;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .services_outro_section {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 75px;
-  padding-bottom: 0px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .our_team_section {
-  padding-top: 75px;
-  padding-bottom: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .solo_para {
@@ -1577,12 +1578,8 @@
   text-align: center;
 }
 
-._404_section {
-  height: 65vh;
-}
-
 .privacy_section_main {
-  padding-top: 75px;
+  padding-top: 100px;
 }
 
 .legal_h1 {
@@ -1618,7 +1615,7 @@
 }
 
 .privacy_section_14 {
-  padding-bottom: 75px;
+  padding-bottom: 100px;
 }
 
 .ryu_body {
@@ -1682,12 +1679,12 @@
 }
 
 .tou_section_main {
-  padding-top: 75px;
+  padding-top: 100px;
 }
 
 .tou_section_22 {
   margin-bottom: 0px;
-  padding-bottom: 75px;
+  padding-bottom: 100px;
 }
 
 .bio_img {
@@ -2037,6 +2034,25 @@
   text-decoration: none;
 }
 
+.lottie-animation-3 {
+  margin-bottom: 0px;
+}
+
+._4_block_row_footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
 @media screen and (min-width: 1280px) {
   .about_section {
     padding-top: 125px;
@@ -2181,6 +2197,10 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-size: 16px;
+  }
+
+  ._4_block_row_footer {
+    margin-top: -5px;
   }
 }
 
@@ -2785,6 +2805,18 @@
   .image-2 {
     -o-object-fit: fill;
     object-fit: fill;
+  }
+
+  ._4_block_row_footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
@@ -3741,6 +3773,22 @@
 
   .menu-button {
     padding-right: 0px;
+  }
+
+  ._4_block_row_footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
 }
 
