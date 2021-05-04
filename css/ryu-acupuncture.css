@@ -3008,6 +3008,11 @@
     grid-template-columns: 1fr;
   }
 
+  .cards_img {
+    -o-object-position: 50% 100%;
+    object-position: 50% 100%;
+  }
+
   .cards_para {
     text-align: left;
   }
@@ -3916,8 +3921,8 @@
 
   .gallery_image_3 {
     height: 200px;
-    -o-object-position: 50% 22%;
-    object-position: 50% 22%;
+    -o-object-position: 25% 22%;
+    object-position: 25% 22%;
   }
 
   .gallery_image_4 {
