@@ -2156,7 +2156,9 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  border: 1px none #000;
+  border-style: none;
+  border-width: 1px;
+  border-color: #1063ac;
   background-color: #fff;
   -webkit-transition: opacity 200ms ease-in;
   transition: opacity 200ms ease-in;
@@ -2170,7 +2172,11 @@
 
 .card_bottom {
   height: 400px;
-  padding: 50px 35px;
+  padding: 30px;
+  border-style: none;
+  border-width: 1px;
+  border-color: #1063ac;
+  border-radius: 0px;
   background-color: #f0f7ff;
   background-clip: border-box;
 }
@@ -2212,8 +2218,26 @@
 }
 
 .card_top_img {
+  display: inline-block;
+  height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.blog_page_main_image {
+  height: 450px;
+  min-width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.blog_page_post_date {
+  margin: 15px auto;
+  padding-bottom: 0px;
+  font-weight: 700;
+  text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
