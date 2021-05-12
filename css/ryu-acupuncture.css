@@ -2120,13 +2120,13 @@
 }
 
 .ryu_blog_block {
-  margin-top: 25px;
+  margin-top: 50px;
   margin-bottom: 50px;
   background-color: transparent;
 }
 
 .cms_link_block {
-  height: 650px;
+  height: 550px;
   color: #333;
   text-decoration: none;
 }
@@ -2143,7 +2143,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 650px;
+  height: 550px;
   margin-top: 0px;
   margin-bottom: 25px;
   padding: 0px;
@@ -2171,7 +2171,7 @@
 }
 
 .card_bottom {
-  height: 400px;
+  height: 300px;
   padding: 30px;
   border-style: none;
   border-width: 1px;
@@ -2238,6 +2238,14 @@
   padding-bottom: 0px;
   font-weight: 700;
   text-align: center;
+}
+
+.blog_container {
+  width: 90vw;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 0px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -2745,20 +2753,37 @@
   }
 
   .cms_block {
-    height: auto;
+    height: 550px;
   }
 
   .card_bottom {
-    height: 250px;
+    overflow: hidden;
+    height: 300px;
     padding: 20px;
   }
 
   .card_h3-2 {
-    font-size: 32px;
+    font-size: 22px;
+  }
+
+  .card_date {
+    font-size: 12px;
   }
 
   .card_cms_para {
-    display: none;
+    display: block;
+    overflow: hidden;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .card_cms_para.truncate {
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+
+  .blog_container {
+    width: 90vw;
   }
 }
 
@@ -2852,6 +2877,8 @@
     -ms-flex-pack: center;
     justify-content: center;
     justify-items: center;
+    -ms-grid-columns: 0.25fr 0.5fr;
+    grid-template-columns: 0.25fr 0.5fr;
   }
 
   ._65_block.margin_left {
@@ -3079,6 +3106,10 @@
   .card_h3-2 {
     font-size: 30px;
     text-align: left;
+  }
+
+  .card_top_img {
+    width: 100%;
   }
 }
 
