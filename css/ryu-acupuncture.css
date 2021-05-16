@@ -2307,9 +2307,18 @@
   background-attachment: fixed;
 }
 
-.accessibility_section {
-  min-height: 100vh;
+.accessibility_section_main {
   padding-top: 100px;
+  padding-bottom: 0px;
+}
+
+.blue_link-2 {
+  color: #3898ec;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.accessibility_section_6 {
   padding-bottom: 100px;
 }
 
@@ -2853,6 +2862,10 @@
 
   .blog_collection_page {
     padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .accessibility_section_6 {
     padding-bottom: 75px;
   }
 }
@@ -4275,6 +4288,10 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .accessibility_section_6 {
+    padding-bottom: 25px;
   }
 }
 
