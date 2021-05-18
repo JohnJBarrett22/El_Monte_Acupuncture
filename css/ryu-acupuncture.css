@@ -1599,6 +1599,8 @@
 }
 
 .legal_timestamp {
+  font-size: 14px;
+  line-height: 21px;
   text-align: center;
 }
 
@@ -2320,6 +2322,11 @@
 
 .accessibility_section_6 {
   padding-bottom: 100px;
+}
+
+.bold-text {
+  font-size: 14px;
+  line-height: 21px;
 }
 
 @media screen and (min-width: 1280px) {
