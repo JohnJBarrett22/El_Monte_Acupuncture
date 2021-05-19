@@ -329,7 +329,7 @@
 .footer_link-2.footer_icon {
   display: inline-block;
   margin-top: 15px;
-  margin-right: 10px;
+  margin-right: 20px;
   margin-left: 0px;
 }
 
@@ -1722,7 +1722,7 @@
 
 .text-block-4 {
   padding-top: 0px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .hours_grid_block {
@@ -2588,7 +2588,9 @@
   }
 
   .footer_link-2.footer_icon {
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 14px;
   }
 
   .footer_icons {
@@ -2969,6 +2971,12 @@
     justify-items: center;
     -ms-grid-columns: 0.25fr 0.5fr;
     grid-template-columns: 0.25fr 0.5fr;
+  }
+
+  .footer_link-2.footer_icon {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
   }
 
   ._65_block.margin_left {
@@ -3359,6 +3367,7 @@
   }
 
   .footer_link-2.footer_icon {
+    margin-left: 10px;
     font-size: 22px;
     line-height: 22px;
   }
