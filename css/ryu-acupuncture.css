@@ -1710,6 +1710,8 @@
 
 .site_map_section {
   min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .block_text_pre_h2 {
