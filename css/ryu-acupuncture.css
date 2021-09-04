@@ -2187,6 +2187,7 @@
   border-radius: 0px;
   background-color: #f0f7ff;
   background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .card_h3-2 {
