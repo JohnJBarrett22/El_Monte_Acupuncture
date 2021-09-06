@@ -2498,6 +2498,10 @@
     padding-top: 125px;
     padding-bottom: 125px;
   }
+
+  .conditions_treated_list {
+    margin-top: 40px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
