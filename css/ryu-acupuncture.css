@@ -2510,12 +2510,21 @@
     line-height: 22.5px;
   }
 
+  .section_h1 {
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+
   .site_map_section {
     height: 65vh;
   }
 
   .nav_bar_h3 {
     margin-top: 0px;
+  }
+
+  .conditions_treated_list {
+    margin-top: 26px;
   }
 }
 
