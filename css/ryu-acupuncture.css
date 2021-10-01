@@ -1455,6 +1455,7 @@
 
 .services_para {
   padding: 0px 45px;
+  font-style: normal;
 }
 
 .services_intro_section {
@@ -2456,6 +2457,14 @@
 .service_card_link {
   color: #333;
   text-decoration: none;
+}
+
+.italic-text {
+  font-style: normal;
+}
+
+.italic-text-2 {
+  font-style: normal;
 }
 
 @media screen and (min-width: 1280px) {
