@@ -180,6 +180,7 @@
 
 .ryu_tagline {
   font-family: Inter, sans-serif;
+  font-style: italic;
   text-align: center;
   text-shadow: 2px 2px 3px #3898ec;
 }
@@ -257,11 +258,14 @@
 .card_h3 {
   font-family: Inter, sans-serif;
   text-align: center;
+  text-decoration: none;
   text-shadow: 1px 1px 1px #3898ec;
 }
 
 .cards_para {
+  color: #333;
   text-align: left;
+  text-decoration: none;
 }
 
 .footer_grid_2_block {
@@ -1330,10 +1334,7 @@
 
 .services_picture_section {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 .content-holder {
@@ -1434,12 +1435,12 @@
 
 .services_content_h3 {
   display: block;
-  margin-top: 75px;
+  margin-top: 0px;
   margin-bottom: 20px;
   font-family: Inter, sans-serif;
-  color: #fff;
-  font-size: 60px;
-  line-height: 60px;
+  color: #333;
+  font-size: 35px;
+  line-height: 35px;
   font-weight: 700;
   text-align: center;
   text-shadow: 1px 1px 1px #3898ec;
@@ -1459,13 +1460,13 @@
 .services_intro_section {
   margin: 0px;
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .services_outro_section {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 50px;
+  padding-top: 25px;
   padding-bottom: 100px;
 }
 
@@ -2359,6 +2360,104 @@
   background-size: cover;
 }
 
+.tch_img_block {
+  width: 100%;
+  height: 300px;
+  background-image: url('../images/chinese_herbal_remedies.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.cup_img_block {
+  width: 100%;
+  height: 300px;
+  background-image: url('../images/best_cupping_in_los_angeles.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.ryu_button_service {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 165px;
+  height: 50px;
+  margin-top: 35px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #3898ec;
+  font-size: 14px;
+  text-align: center;
+  text-shadow: none;
+}
+
+.bold-text-2 {
+  color: #fafafa;
+}
+
+.services_img_block_1 {
+  width: 100%;
+  height: 600px;
+  background-image: url('../images/acupuncture_treatment.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.services_img_block_2 {
+  width: 100%;
+  height: 600px;
+  background-image: url('../images/traditional_chinese_herbal_medicine.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.services_img_block_3 {
+  width: 100%;
+  height: 600px;
+  background-image: url('../images/cupping_treatment.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.services_img_block_4 {
+  width: 100%;
+  height: 600px;
+  background-image: url('../images/ear_acupuncture.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.services_img_block_5 {
+  width: 100%;
+  height: 600px;
+  background-image: url('../images/moxibustion_treatment.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.services_img_block_6 {
+  width: 100%;
+  height: 600px;
+  background-image: url('../images/heat_lamp_therapy.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.service_card_link {
+  color: #333;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1280px) {
   .about_section {
     padding-top: 125px;
@@ -2517,6 +2616,10 @@
   .conditions_treated_list {
     margin-top: 40px;
   }
+
+  .ryu_button_service {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -2586,6 +2689,7 @@
   }
 
   ._2_block {
+    width: 100%;
     padding-right: 0px;
   }
 
@@ -2671,6 +2775,14 @@
     width: 45px;
     height: 45px;
     margin-left: 545px;
+  }
+
+  ._2_block_row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .neurological_block {
@@ -2766,7 +2878,7 @@
 
   .services_intro_section {
     padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 25px;
   }
 
   .our_team_section {
@@ -3003,6 +3115,7 @@
   .footer_link {
     font-size: 15px;
     line-height: 22.5px;
+    text-align: center;
   }
 
   .footer_grid_hours_block {
@@ -3020,6 +3133,10 @@
     margin-top: 10px;
     margin-left: 10px;
     font-size: 15px;
+  }
+
+  .footer_icons {
+    text-align: center;
   }
 
   ._65_block.margin_left {
@@ -4356,6 +4473,10 @@
   .accessibility_section_6 {
     padding-bottom: 25px;
   }
+
+  .services_options_section {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -4458,27 +4579,6 @@
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_970e7283-14f5-9a72-d95a-bb3cbd291ef5-bfb09bd8 {
-    -ms-grid-column: span 1;
-    grid-column-start: span 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: span 1;
-  }
-
-  #w-node-_970e7283-14f5-9a72-d95a-bb3cbd291f03-bfb09bd8 {
-    -ms-grid-column: span 1;
-    grid-column-start: span 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: span 1;
-  }
-
-  #w-node-_970e7283-14f5-9a72-d95a-bb3cbd291efc-bfb09bd8 {
-    -ms-grid-column: span 1;
-    grid-column-start: span 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: span 1;
-  }
-
   #w-node-a5855f2e-be73-11df-a01b-7dade4327f0e-bfb09bd8 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
