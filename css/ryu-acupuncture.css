@@ -2290,6 +2290,7 @@
 }
 
 .blog_collection {
+  margin-top: 50px;
   font-size: 15px;
 }
 
@@ -4514,6 +4515,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 15px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
