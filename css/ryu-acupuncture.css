@@ -16,7 +16,7 @@
 
 .hero_section {
   height: 100vh;
-  padding-top: 295px;
+  padding-top: 255px;
   background-image: url('../images/ryu_acupuncture.jpg');
   background-position: 50% 50%;
   background-size: cover;
@@ -157,7 +157,7 @@
 }
 
 .ryu_title {
-  margin-top: 5px;
+  margin-top: 0px;
   margin-right: auto;
   margin-left: auto;
   font-family: Inter, sans-serif;
@@ -182,6 +182,8 @@
 .ryu_tagline {
   font-family: Inter, sans-serif;
   color: #fafafa;
+  font-size: 32px;
+  line-height: 36px;
   font-style: italic;
   text-align: center;
   text-shadow: 2px 2px 3px #3898ec;
@@ -376,14 +378,6 @@
   padding-bottom: 100px;
 }
 
-.testimonials_section {
-  display: block;
-  height: 4000px;
-  margin-top: 0px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .parallax_block_cupping {
   position: relative;
   overflow: hidden;
@@ -422,68 +416,6 @@
   margin-right: 15px;
 }
 
-.horizontal_wrapper {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 50px;
-  overflow: hidden;
-  width: 100vw;
-}
-
-.horizontal_scroll_content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 4000px;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.horizontal_progress {
-  position: fixed;
-  left: 0%;
-  top: auto;
-  right: 0%;
-  bottom: 0%;
-  width: 0%;
-  height: 8px;
-  background-color: #3898ec;
-}
-
-.testimonial_card_1 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #93c7f4;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
 ._5_star {
   display: block;
   margin-right: 0px;
@@ -515,276 +447,6 @@
   text-align: right;
 }
 
-.testimonial_card_2 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #81bdf2;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_3 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #6eb4f1;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_4 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #5caaef;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_5 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #49a1ed;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_6 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #3898ec;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_7 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #248dea;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_8 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #1583e4;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_9 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #1479d1;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_10 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #126ebe;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
-.testimonial_card_11 {
-  position: static;
-  display: block;
-  width: 350px;
-  height: 500px;
-  margin-top: 58px;
-  margin-right: 25px;
-  margin-left: 25px;
-  padding: 25px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border: 2px solid #1063ac;
-  border-radius: 20px;
-  box-shadow: 4px 4px 15px 0 grey;
-}
-
 .blue_divide {
   height: 2px;
   margin: 25px 0px;
@@ -810,7 +472,10 @@
 }
 
 .testimonial_block {
-  padding: 50px;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
   border-bottom: 1px solid #3898ec;
 }
 
@@ -902,35 +567,6 @@
   -ms-flex-align: center;
   align-items: center;
   border-radius: 20px;
-  font-size: 14px;
-  text-align: center;
-}
-
-.ryu_button_testimonial {
-  position: fixed;
-  left: 0%;
-  top: auto;
-  right: 0%;
-  bottom: 5%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 135px;
-  height: 50px;
-  margin-top: 159px;
-  margin-right: auto;
-  margin-left: auto;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 20px;
-  opacity: 0;
   font-size: 14px;
   text-align: center;
 }
@@ -1522,8 +1158,15 @@
   text-shadow: 1px 1px 1px #3898ec;
 }
 
-.testimonials_section_mobile {
-  display: none;
+.testimonials_section {
+  display: block;
+  margin: 100px 0px;
+}
+
+.slider {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #fff;
 }
 
 .ryu_360_block {
@@ -1591,6 +1234,8 @@
 .block_text_pre_h2 {
   padding-top: 30px;
   color: #3898ec;
+  font-size: 15px;
+  line-height: 22.5px;
   font-weight: 700;
   text-align: center;
   letter-spacing: 3px;
@@ -2369,7 +2014,99 @@
   color: #333;
 }
 
+.faq_section {
+  height: auto;
+  min-height: 100vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.testimonial_slider_block {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  border-bottom: 0px none #3898ec;
+}
+
+.faq-plus-wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.faq-plus-l {
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  border-radius: 3px;
+  background-color: #2aa8ff;
+}
+
+.faq-q-text {
+  font-weight: 700;
+}
+
+.faq-plus {
+  width: 100%;
+  height: 5px;
+  border-radius: 3px;
+  background-color: #2aa8ff;
+}
+
+.faq-question {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.faq-answer-text {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.faq-answer {
+  overflow: hidden;
+  padding-left: 45px;
+  border-bottom: 1px solid rgba(45, 62, 80, 0.12);
+}
+
+.pic_block {
+  width: 50%;
+  height: 400px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
 @media screen and (min-width: 1280px) {
+  .hero_section {
+    padding-top: 275px;
+  }
+
   .about_section {
     padding-top: 125px;
     padding-bottom: 125px;
@@ -2429,19 +2166,9 @@
     padding-bottom: 125px;
   }
 
-  .testimonials_section {
-    padding-top: 125px;
-    padding-bottom: 125px;
-  }
-
   .conditions_treated_page {
     padding-top: 125px;
     padding-bottom: 125px;
-  }
-
-  .ryu_button_testimonial {
-    bottom: 4%;
-    margin-top: 313px;
   }
 
   .ryu_button_schedule {
@@ -2531,6 +2258,11 @@
   .ryu_button_service {
     margin-bottom: 0px;
   }
+
+  .faq_section {
+    padding-top: 125px;
+    padding-bottom: 125px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -2567,6 +2299,10 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .hero_section {
+    padding-top: 350px;
+  }
+
   .ryu_body {
     font-size: 15px;
     line-height: 22.5px;
@@ -2583,7 +2319,7 @@
 
 @media screen and (max-width: 991px) {
   .hero_section {
-    padding-top: 75px;
+    padding-top: 255px;
   }
 
   .main_container {
@@ -2613,6 +2349,7 @@
   }
 
   ._2_block {
+    display: block;
     width: 100%;
     padding-right: 0px;
   }
@@ -2634,7 +2371,7 @@
   }
 
   .ryu_title {
-    margin-top: 230px;
+    margin-top: 0px;
     font-size: 65px;
     line-height: 65px;
   }
@@ -2675,11 +2412,6 @@
   }
 
   .testimonial_page_section {
-    padding-top: 75px;
-    padding-bottom: 75px;
-  }
-
-  .testimonials_section {
     padding-top: 75px;
     padding-bottom: 75px;
   }
@@ -2818,6 +2550,7 @@
   }
 
   ._360_frame_block {
+    width: 100%;
     height: 300px;
   }
 
@@ -2898,6 +2631,21 @@
     transform: rotateX(0deg) rotateY(180deg) rotateZ(0deg);
   }
 
+  ._2_block_row_reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
   .blog_section {
     padding-top: 75px;
     padding-bottom: 75px;
@@ -2959,11 +2707,33 @@
     font-size: 18px;
     line-height: 24px;
   }
+
+  .faq_section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .paragraph-11 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .pic_block {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .hero_section {
-    padding-top: 40px;
+    padding-top: 215px;
   }
 
   ._2_block {
@@ -3100,14 +2870,6 @@
     align-self: center;
   }
 
-  .horizontal_wrapper {
-    top: 35px;
-  }
-
-  .testimonial_card_1 {
-    height: 500px;
-  }
-
   .filter-button.ryu_testimonial_button {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3161,6 +2923,10 @@
   .legal_h2 {
     font-size: 16px;
     line-height: 16px;
+  }
+
+  .slider {
+    height: 475px;
   }
 
   .ryu_360_block {
@@ -3268,10 +3034,10 @@
 
   ._2_block_row_reverse {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .gallery_image_3 {
@@ -3324,6 +3090,13 @@
     align-items: flex-start;
   }
 
+  .card_top {
+    width: 100%;
+    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-position: 0px 0px;
+    background-size: auto;
+  }
+
   .card_bottom {
     width: 100%;
     margin-bottom: 0px;
@@ -3363,11 +3136,11 @@
 
   .collection-list {
     width: 100%;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -3379,6 +3152,8 @@
 
   .card_top_img {
     width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
 
   .blog_collection_page_item {
@@ -3412,6 +3187,13 @@
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+  }
+
+  .pic_block {
+    width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
   }
 }
 
@@ -3486,7 +3268,7 @@
 
   .ryu_title {
     font-size: 40px;
-    line-height: 40px;
+    line-height: 45px;
   }
 
   .ryu_tagline {
@@ -3608,11 +3390,6 @@
     padding-bottom: 25px;
   }
 
-  .testimonials_section {
-    display: none;
-    height: 4500px;
-  }
-
   ._65_block.margin_left {
     width: 100%;
     margin-left: 0px;
@@ -3621,15 +3398,6 @@
   ._35_block.margin_right {
     width: 100%;
     margin-right: 0px;
-  }
-
-  .horizontal_scroll_content {
-    width: 4500px;
-  }
-
-  .testimonial_card_1 {
-    width: 290px;
-    height: 600px;
   }
 
   ._5_star {
@@ -3649,56 +3417,6 @@
 
   .testimonial_date {
     margin-left: 0px;
-  }
-
-  .testimonial_card_2 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_3 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_4 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_5 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_6 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_7 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_8 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_9 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_10 {
-    width: 270px;
-    height: 600px;
-  }
-
-  .testimonial_card_11 {
-    width: 270px;
-    height: 600px;
   }
 
   .testimonial_block.mix.yelp._2008 {
@@ -4216,9 +3934,10 @@
     line-height: 30px;
   }
 
-  .testimonials_section_mobile {
+  .testimonials_section {
     display: block;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     padding-top: 25px;
     padding-bottom: 25px;
   }
@@ -4358,6 +4077,10 @@
   .arrow_wrapper {
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+
+  .statistics_block {
+    background-color: #f0f7ff;
   }
 
   .nav_bar_h3 {
@@ -4591,6 +4314,21 @@
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
+  }
+
+  .faq_section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .pic_block {
+    display: block;
+    width: 100%;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
   }
 }
 
