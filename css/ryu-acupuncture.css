@@ -1187,6 +1187,14 @@
   padding-left: 0px;
 }
 
+.form-block {
+  display: none;
+}
+
+.form {
+  display: block;
+}
+
 .disclaimer_para {
   padding-top: 7px;
   border-top: 1px solid #3898ec;
@@ -1926,7 +1934,7 @@
 .services_img_block_1 {
   width: 100%;
   height: 600px;
-  background-image: url('../images/acupuncture_treatment_1.jpg');
+  background-image: url('../images/acupuncture_treatment.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -2100,6 +2108,10 @@
   height: 400px;
   margin-bottom: 15px;
   padding: 10px;
+}
+
+.form-block-2 {
+  display: none;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3775,7 +3787,7 @@
     margin-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
-    background-image: url('../images/acupuncture_treatment.jpg');
+    background-image: url('../images/acupuncture_treatment_1.jpg');
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -4333,7 +4345,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-_970e7283-14f5-9a72-d95a-bb3cbd291f06-bfb09bd8 {
+  #w-node-_970e7283-14f5-9a72-d95a-bb3cbd291f06-4fbc73e3 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -4344,7 +4356,7 @@
     grid-column-end: span 1;
   }
 
-  #w-node-_970e7283-14f5-9a72-d95a-bb3cbd291f08-bfb09bd8 {
+  #w-node-_970e7283-14f5-9a72-d95a-bb3cbd291f08-4fbc73e3 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -4357,7 +4369,7 @@
     align-self: start;
   }
 
-  #w-node-_970e7283-14f5-9a72-d95a-bb3cbd291eff-bfb09bd8 {
+  #w-node-_970e7283-14f5-9a72-d95a-bb3cbd291eff-4fbc73e3 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -4368,7 +4380,7 @@
     grid-column-end: span 1;
   }
 
-  #w-node-_970e7283-14f5-9a72-d95a-bb3cbd291f01-bfb09bd8 {
+  #w-node-_970e7283-14f5-9a72-d95a-bb3cbd291f01-4fbc73e3 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -4379,7 +4391,7 @@
     grid-column-end: span 1;
   }
 
-  #w-node-a5855f2e-be73-11df-a01b-7dade4327f18-bfb09bd8 {
+  #w-node-a5855f2e-be73-11df-a01b-7dade4327f18-4fbc73e3 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -4390,7 +4402,7 @@
     grid-column-end: span 1;
   }
 
-  #w-node-a5855f2e-be73-11df-a01b-7dade4327f1a-bfb09bd8 {
+  #w-node-a5855f2e-be73-11df-a01b-7dade4327f1a-4fbc73e3 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -4401,7 +4413,7 @@
     grid-column-end: span 1;
   }
 
-  #w-node-a5855f2e-be73-11df-a01b-7dade4327f1f-bfb09bd8 {
+  #w-node-a5855f2e-be73-11df-a01b-7dade4327f1f-4fbc73e3 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -4412,7 +4424,7 @@
     grid-column-end: span 1;
   }
 
-  #w-node-a5855f2e-be73-11df-a01b-7dade4327f21-bfb09bd8 {
+  #w-node-a5855f2e-be73-11df-a01b-7dade4327f21-4fbc73e3 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
@@ -4432,21 +4444,21 @@
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-a5855f2e-be73-11df-a01b-7dade4327f0e-bfb09bd8 {
+  #w-node-a5855f2e-be73-11df-a01b-7dade4327f0e-4fbc73e3 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
 
-  #w-node-a5855f2e-be73-11df-a01b-7dade4327f15-bfb09bd8 {
+  #w-node-a5855f2e-be73-11df-a01b-7dade4327f15-4fbc73e3 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
 
-  #w-node-a5855f2e-be73-11df-a01b-7dade4327f1c-bfb09bd8 {
+  #w-node-a5855f2e-be73-11df-a01b-7dade4327f1c-4fbc73e3 {
     -ms-grid-column: span 1;
     grid-column-start: span 1;
     -ms-grid-column-span: 1;
