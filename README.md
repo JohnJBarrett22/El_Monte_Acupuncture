@@ -1,3 +1,3 @@
-# El Monte Acupuncture
+# Acupuncture Rank & Rent
 
-El Monte Acupuncture rental site project.
+Acupuncture rental site project.
